@@ -1,0 +1,15 @@
+<!DOCTYPE html5>
+
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="../style.css">
+		<link rel="stylesheet" href="../ull.css">
+		<link rel="shortcut icon" href="./wikiDB/image/icon.ico">
+	</head>
+	<body>
+		<p><h1></h1></p>
+		<p><br></br></p>
+	</body>
+</html>

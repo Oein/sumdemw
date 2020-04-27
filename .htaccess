@@ -1,0 +1,5 @@
+# 404 error
+ErrorDocument 404 ./wikiDB/error/404.html
+
+# 403 error
+ErrorDocument 403 ./wikiDB/error/403.html

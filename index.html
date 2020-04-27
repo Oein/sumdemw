@@ -1,0 +1,31 @@
+<!DOCTYPE html5>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="google-site-verification" content="IulCzqFZ5UKrvNvhXEvLr8R0IGXPIbOU-eij8UE9Yqg" />
+		<link rel="stylesheet" href="./wikiDB/css/style.css">
+		<link rel="shortcut icon" href="./wikiDB/image/icon.ico">
+		<title>Sumdem Wiki</title>
+	</head>
+	<body>
+		<script>
+			var pc_device = "win16|win32|win64|mac|macintel";
+ 
+			// 접속한 디바이스 환경
+			var this_device = navigator.platform;
+ 
+			if ( this_device ) {
+ 
+				if ( pc_device.indexOf(navigator.platform.toLowerCase()) < 0 ) {
+					document.location.href='./mobile.html';
+				} else {
+					document.location.href='./pc.html';
+				}
+ 
+			}
+		</script>
+		
+	</body>
+</html>

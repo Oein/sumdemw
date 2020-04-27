@@ -1,0 +1,73 @@
+<!DOCTYPE html5>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="./wikiDB/css/style.css">
+		<link rel="shortcut icon" href="./wikiDB/image/icon.ico">
+
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="./wikiDB/SimpleText/vendor/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="./wikiDB/SimpleText/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="./wikiDB/SimpleText/vendor/animate/animate.css">
+		<link rel="stylesheet" type="text/css" href="./wikiDB/SimpleText/vendor/css-hamburgers/hamburgers.min.css">
+		<link rel="stylesheet" type="text/css" href="./wikiDB/SimpleText/vendor/animsition/css/animsition.min.css">
+		<link rel="stylesheet" type="text/css" href="./wikiDB/SimpleText/vendor/select2/select2.min.css">
+		<link rel="stylesheet" type="text/css" href="./wikiDB/SimpleText/vendor/daterangepicker/daterangepicker.css">
+		<link rel="stylesheet" type="text/css" href="./wikiDB/SimpleText/css/util.css">
+		<link rel="stylesheet" type="text/css" href="./wikiDB/SimpleText/css/main.css">
+
+	</head>
+	<body>
+		<script>
+			var URLa = window.location.href;
+			var URL = URLa.substr(48 , URLa.length);
+			URLa = undefined;
+			URL = URL.toLowerCase();
+			console.log(URL);
+		</script>
+		<image src="./wikiDB/image/logo.png" alt="Sumdem G" style="width:80%;height:27%;padding-top:5;margin: 0 auto; padding-left:21%" /><p></p>
+		<form action="./findkorean.html" method="get" style="width:90%;height:27%;padding-top:5px;padding-left:5%">
+			<div class="container-contact100">
+
+				<div class="wrap-contact100">
+					<form class="contact100-form validate-form">
+						<div class="wrap-input100 validate-input" data-validate="Please enter your name">
+							<input class="input100" type="text" name="std" placeholder="한국어를 입력하세요.">
+							<span class="focus-input100"></span>
+						</div>
+		
+						<div class="container-contact100-form-btn">
+							<button class="contact100-form-btn">
+								<span>
+									<i class="fa fa-paper-plane-o m-r-6" aria-hidden="true"></i>
+									변역
+								</span>
+							</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</form>
+
+			<script src="./wikiDB/SimpleText/vendor/jquery/jquery-3.2.1.min.js"></script>
+			<script src="./wikiDB/SimpleText/vendor/animsition/js/animsition.min.js"></script>
+			<script src="./wikiDB/SimpleText/vendor/bootstrap/js/popper.js"></script>
+			<script src="./wikiDB/SimpleText/vendor/bootstrap/js/bootstrap.min.js"></script>
+			<script src="./wikiDB/SimpleText/vendor/select2/select2.min.js"></script>
+			<script src="./wikiDB/SimpleText/vendor/daterangepicker/moment.min.js"></script>
+			<script src="./wikiDB/SimpleText/vendor/daterangepicker/daterangepicker.js"></script>
+			<script src="./wikiDB/SimpleText/vendor/countdowntime/countdowntime.js"></script>
+			<script src="./wikiDB/SimpleText/js/main.js"></script>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+		<script>
+  		window.dataLayer = window.dataLayer || [];
+  		function gtag(){dataLayer.push(arguments);}
+  		gtag('js', new Date());
+
+  		gtag('config', 'UA-23581568-13');
+		</script>
+
+	</body>
+</html>

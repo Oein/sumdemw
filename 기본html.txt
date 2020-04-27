@@ -1,0 +1,12 @@
+<!DOCTYPE html5>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="./wikiDB/style.css">
+		<link rel="shortcut icon" href="./wikiDB/image/icon.ico">
+	</head>
+	<body>
+		
+	</body>
+</html>
