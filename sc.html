@@ -14,18 +14,12 @@
 			}
 			
 			function ifg(a){
-				if(a === "nowiki"){
-					document.location.href='./wikiDB/error/' + 'nowiki' + '.html';
-				}
-				else if(a === "chat"){
-					document.location.href='./' + 'chat' + '.html';
-				}
-				else{
-					document.location.href='./wikiDB/wiki/' + a + '.html';
-				}
+				
 			}
 			var URLa = window.location.href;
-			var URL = URLa.substr(40 , URLa.length);
+			console.log(URLa);
+			var URLf = URLa.substr(0 , 14);
+			console.log(URLf);
 			URLa = undefined;
 			URL = URL.toLowerCase();
 			console.log(URL);
