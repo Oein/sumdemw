@@ -9,8 +9,16 @@
 		<link rel="shortcut icon" href="./wikiDB/image/icon.ico">
 	</head>
 	<body>
+		<script>
+            var a=0;
+            function abc() {
+                a = a + 1;
+                console.log(a);
+                if(a === 50) document.location.href='../easteregg/trax.html';
+            }
+        </script>
 		<p><h1>Google(구글)</h1></p>
-		<image src="../image/google.png" />
+		<image src="../image/google.png" onclick="abc()"/>
         <p><br></br></p>
         <p>검색인진이다. 주소는<a href="https://google.co.kr">https://www.google.co.kr</a>이다.</p>
 	</body>
