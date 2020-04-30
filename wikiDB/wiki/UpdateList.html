@@ -8,7 +8,15 @@
 		<link rel="stylesheet" href="../ull.css">
 		<link rel="shortcut icon" href="../image/icon.ico">
 	</head>
-	<body>
+	<body onclick="abc();">
+		<script>
+            var a=0;
+            function abc() {
+                a = a + 1;
+                console.log(a);
+                if(a === 50) document.location.href='../easteregg/fw.html';
+            }
+		</script>
 		<h1>업데이트 목록</h1><p></p>
 		<p>&nbsp;-&nbsp;1.0.0</p>
 		<p>&nbsp;&nbsp;&nbsp;&middot;&nbsp;&nbsp;매인 페이지제작완료</p>
