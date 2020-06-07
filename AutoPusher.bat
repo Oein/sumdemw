@@ -1,6 +1,7 @@
 @echo off
 mode con cols=18 lines=8
 :loop
+	mode con cols=18 lines=8
 	cd D:\sumdem wiki\sumdemw
 	git init
 	git pull
