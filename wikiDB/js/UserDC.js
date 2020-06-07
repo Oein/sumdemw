@@ -2,7 +2,7 @@ var Data;
 
 function Cheek(Input_Data){
     Input_Data = Input_Data.toLowerCase();
-    Input_Data.replace(/ /gi, "");
+    Input_Data.replace(/+/gi, "");
     Data = Input_Data;
     console.log(Input_Data);
     if(bo("%21wait") || bo("!wait")) alert('Input_Data : ' + Input_Data + '   Input_Data : ' + Input_Data);
