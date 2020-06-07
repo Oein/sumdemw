@@ -2,7 +2,7 @@ var Data;
 
 function Cheek(Input_Data){
     Input_Data = Input_Data.toLowerCase();
-    Input_Data.replace(/+/gi, "");
+    Input_Data.replace("+" , "");
     Data = Input_Data;
     console.log(Input_Data);
     if(bo("%21wait") || bo("!wait")) alert('Input_Data : ' + Input_Data + '   Input_Data : ' + Input_Data);
@@ -18,7 +18,7 @@ function Cheek(Input_Data){
     else if (bo("sumdemw") || bo("sumdemwiki") || bo("sumdemw")  ||  bo("%ec%8d%b8%eb%8e%80%ec%9c%84%ed%82%a4") || bo("%ec%8d%b8%eb%8e%80+%ec%9c%84%ed%82%a4")) return ifg("sumdemw");
     else if (bo("%21chat") || bo("insert") || bo("wikidata") || bo("sendwikidata") || bo("%21%eb%8b%a4%ec%9b%80") || bo("%21%ec%9c%84%ed%82%a4%eb%8d%b0%ec%9d%b4%ed%84%b0%ec%a0%9c%ec%b6%9c") || bo("%21%ec%9c%84%ed%82%a4%eb%8d%b0%ec%9d%b4%ed%84%b0") || bo("%21%eb%b3%b8%eb%ac%b8%ec%a0%9c%ec%b6%9c")) return ifg("chat");
     else if (bo("rocketclubp") || bo("%eb%a1%9c%ec%bc%93%eb%8b%a8")) return ifg("rocketclubp");
-    else if (bo("nlabof") || bo("%eb%8b%8c%ed%85%90%eb%8f%84%eb%9d%bc%eb%b3%b4%28%eb%82%9a%ec%8b%9c%ed%8e%b8%29")) return ifg("nlabof");
+    else if (bo("nlabof") || bo("닌텐도")) return ifg("nlabof");
     else{
         alert('Input_Data : ' + Input_Data + '   Input_Data : ' + Input_Data);
         return ifg('nowiki');
