@@ -1,4 +1,5 @@
 @echo off
+mode con cols=20 lines=15
 :loop
 	cd D:\sumdem wiki\sumdemw
 	git init
