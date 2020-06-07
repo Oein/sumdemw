@@ -1,4 +1,5 @@
 @echo off
+title GitHub Auto Pusher
 mode con cols=18 lines=8
 :loop
 	mode con cols=18 lines=8
