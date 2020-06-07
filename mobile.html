@@ -25,15 +25,19 @@
 		</div>
 		<!-- css 로드 끝 -->
 	</head>
-	<body>
+	<body onload="Go()">
 		<!-- 스크립트 로드 -->
 		<script type="text/javascript" src="./wikiDB/js/UserDC.js"></script>
 
 		<script>
 			function Go(){
-				var input = document.getElementById("inputer");
-				document.location.href = Cheek(input.value);
+				var Parm = getParam("std");
+				if(Parm !== ""){
+					document.location.href = Cheek(Parm);
+				}
 			}
+
+			console.log(getParam("std"));
 		</script>
 		<!-- 스크립트 로드 끝 -->
 
