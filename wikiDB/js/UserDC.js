@@ -4,7 +4,7 @@ function Cheek(Input_Data){
     Input_Data = Input_Data.toLowerCase();
     Data = Input_Data;
     console.log(Input_Data);
-    if(bo("%21wait") || bo("!wait")) alert('Input_Dataa : ' + Input_Dataa + '   Input_Data : ' + Input_Data);
+    if(bo("%21wait") || bo("!wait")) alert('Input_Data : ' + Input_Data + '   Input_Data : ' + Input_Data);
     else if (bo("opent")) return ifg("UpdateList");
     else if (bo("entkr")) document.location.href='./findkorean.html';
     else if (bo("google") || bo("%ea%b5%ac%ea%b8%80")) return ifg("Google");
@@ -31,4 +31,16 @@ function ifg(a){
     if(a === "chat")return './wikiDB/other/chat.html';
     else if(a === "nowiki")return './wikiDB/error/nowiki.html';
     else return './wikiDB/wiki/' + a + '.html';
+}
+
+function getParam(sname) {
+    var params = location.search.substr(location.search.indexOf("?") + 1);
+    var sval = "";
+    params = params.split("&");
+
+    for (var i = 0; i < params.length; i++) {
+        temp = params[i].split("=");
+        if ([temp[0]] == sname) { sval = temp[1]; }
+    }
+    return sval;
 }
