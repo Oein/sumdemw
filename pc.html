@@ -26,6 +26,16 @@
 		<!-- css 로드 끝 -->
 	</head>
 	<body>
+		<!-- 스크립트 로드 -->
+		<script type="text/javascript" src="./wikiDB/js/UserDC.js"></script>
+
+		<script>
+			function Go(){
+				var input = document.getElementById("inputer");
+				Cheek(input.value);
+			}
+		</script>
+		<!-- 스크립트 로드 끝 -->
 		
 		<!-- 로고 -->
 		<div>
@@ -40,12 +50,12 @@
 					<div class="wrap-contact100">
 						<form class="contact100-form validate-form">
 							<div class="wrap-input100 validate-input" data-validate="Please enter your name">
-								<input class="input100" type="text" name="std" placeholder="검색어를 입력하세요. 도움은 !help명령어로 볼수있습니다.">
+								<input id="inputer" class="input100" type="text" name="std" placeholder="검색어를 입력하세요. 도움은 !help명령어로 볼수있습니다.">
 								<span class="focus-input100"></span>
 							</div>
 
 							<div class="container-contact100-form-btn">
-								<button class="contact100-form-btn">
+								<button class="contact100-form-btn" onclick="Go()">
 									<span>
 										<i class="fa fa-paper-plane-o m-r-6" aria-hidden="true"></i>
 										검색
