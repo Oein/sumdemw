@@ -28,7 +28,7 @@ function bo(a){
 }
 
 function ifg(a){
-    if(a === "chat")return './chat.html';
-    else if(a === "nowiki")return './error/nowiki.html';
-    else return '../wiki/' + a + '.html';
+    if(a === "chat")return './wikiDB/other/chat.html';
+    else if(a === "nowiki")return './wikiDB/error/nowiki.html';
+    else return './wikiDB/wiki/' + a + '.html';
 }
