@@ -16,10 +16,10 @@ function Cheek(Input_Data){
     else if (bo("daum") || bo("%eb%8b%a4%ec%9d%8c")) return ifg("Daum");
     else if (bo("nate") || bo("%eb%84%a4%ec%9d%b4%ed%8a%b8")) return ifg("nate");
     else if (bo("catapy") || bo("%ec%ba%90%ed%84%b0%ed%94%bc")) return ifg("Catapy");
-    else if (bo("sumdemw") || bo("sumdemwiki") || bo("sumdemw")  ||  bo("%ec%8d%b8%eb%8e%80%ec%9c%84%ed%82%a4") || bo("%ec%8d%b8%eb%8e%80+%ec%9c%84%ed%82%a4")) return ifg("sumdemw");
+    else if (bo("sumdemw") || bo("sumdemwiki") || bo("sumdemw")  ||  bo("썸뎀위키")) return ifg("sumdemw");
     else if (bo("%21chat") || bo("insert") || bo("wikidata") || bo("sendwikidata") || bo("%21%eb%8b%a4%ec%9b%80") || bo("%21%ec%9c%84%ed%82%a4%eb%8d%b0%ec%9d%b4%ed%84%b0%ec%a0%9c%ec%b6%9c") || bo("%21%ec%9c%84%ed%82%a4%eb%8d%b0%ec%9d%b4%ed%84%b0") || bo("%21%eb%b3%b8%eb%ac%b8%ec%a0%9c%ec%b6%9c")) return ifg("chat");
     else if (bo("rocketclubp") || bo("로켓단")) return ifg("rocketclubp");
-    else if (bo("nlabof") || bo("%eb%8b%8c%ed%85%90%eb%8f%84+%eb%9d%bc%eb%b3%b4%28%eb%82%9a%ec%8b%9c%ed%8e%b8%29") || bo("%eb%8b%8c%ed%85%90%eb%8f%84%eb%9d%bc%eb%b3%b4%28%eb%82%9a%ec%8b%9c%ed%8e%b8%29")) return ifg("nlabof");
+    else if (bo("nlabof") || bo("닌텐도라보(낚시편)") || bo("닌텐도라보버라이어버티키트1(낚시편)")) return ifg("nlabof");
     else{
         alert('Input_Data : ' + Input_Data + '   Input_Data : ' + Input_Data);
         return ifg('nowiki');
