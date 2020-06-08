@@ -20,6 +20,7 @@ function Cheek(Input_Data){
     else if (bo("!chat") || bo("insert") || bo("wikidata") || bo("sendwikidata") || bo("!위키데이터제출") || bo("!위키데이터") || bo("!본문제출")) return ifg("chat");
     else if (bo("rocketclubp") || bo("로켓단")) return ifg("rocketclubp");
     else if (bo("nlabof") || bo("닌텐도라보(낚시편)") || bo("닌텐도라보버라이어버티키트1(낚시편)")) return ifg("nlabof");
+    else if (bo("bbc") || bo("비비씨")) return ifg("bbc");
     else{
         alert('Input_Data : ' + Input_Data + '   Input_Data : ' + Input_Data);
         return ifg('nowiki');
