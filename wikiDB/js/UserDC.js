@@ -6,18 +6,18 @@ function Cheek(Input_Data){
     Input_Data.replace("+","");
     Data = Input_Data;
     console.log(Input_Data);
-    if(bo("%21wait") || bo("!wait")) alert('Input_Data : ' + Input_Data + '   Input_Data : ' + Input_Data);
+    if(bo("!wait") || bo("!wait")) alert('Input_Data : ' + Input_Data + '   Input_Data : ' + Input_Data);
     else if (bo("opent")) return ifg("UpdateList");
     else if (bo("entkr")) document.location.href='../other/findkorean.html';
-    else if (bo("google") || bo("%ea%b5%ac%ea%b8%80")) return ifg("Google");
-    else if (bo("%21help") || bo("!help")) return ifg("datalist");
-    else if (bo("naver") || bo("%eb%84%a4%ec%9d%b4%eb%b2%84")) return ifg("Naver");
+    else if (bo("google") || bo("구글")) return ifg("Google");
+    else if (bo("!help") || bo("!help")) return ifg("datalist");
+    else if (bo("naver") || bo("네이버")) return ifg("Naver");
     else if (bo("snes")) return ifg("snes");
-    else if (bo("daum") || bo("%eb%8b%a4%ec%9d%8c")) return ifg("Daum");
-    else if (bo("nate") || bo("%eb%84%a4%ec%9d%b4%ed%8a%b8")) return ifg("nate");
-    else if (bo("catapy") || bo("%ec%ba%90%ed%84%b0%ed%94%bc")) return ifg("Catapy");
+    else if (bo("daum") || bo("다움")) return ifg("Daum");
+    else if (bo("nate") || bo("네이트")) return ifg("nate");
+    else if (bo("catapy") || bo("캐터피")) return ifg("Catapy");
     else if (bo("sumdemw") || bo("sumdemwiki") || bo("sumdemw")  ||  bo("썸뎀위키")) return ifg("sumdemw");
-    else if (bo("%21chat") || bo("insert") || bo("wikidata") || bo("sendwikidata") || bo("%21%eb%8b%a4%ec%9b%80") || bo("!위키데이터제출") || bo("!위키데이터") || bo("%21%eb%b3%b8%eb%ac%b8%ec%a0%9c%ec%b6%9c")) return ifg("chat");
+    else if (bo("!chat") || bo("insert") || bo("wikidata") || bo("sendwikidata") || bo("!위키데이터제출") || bo("!위키데이터") || bo("!본문제출")) return ifg("chat");
     else if (bo("rocketclubp") || bo("로켓단")) return ifg("rocketclubp");
     else if (bo("nlabof") || bo("닌텐도라보(낚시편)") || bo("닌텐도라보버라이어버티키트1(낚시편)")) return ifg("nlabof");
     else{
