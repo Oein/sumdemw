@@ -22,6 +22,7 @@ function Cheek(Input_Data){
     else if (bo("nlabof") || bo("닌텐도라보(낚시편)") || bo("닌텐도라보버라이어버티키트1(낚시편)")) return ifg("nlabof");
     else if (bo("bbc") || bo("비비씨")) return ifg("bbc");
     else if (bo("html") || bo("에이치티엠엘")) return ifg("html");
+    else if (bo("c") || bo("씨")) return ifg("c");
     else{
         alert('Input_Data : ' + Input_Data + '   Input_Data : ' + Input_Data);
         return ifg('nowiki');
