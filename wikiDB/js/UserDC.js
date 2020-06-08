@@ -23,6 +23,7 @@ function Cheek(Input_Data){
     else if (bo("bbc") || bo("비비씨")) return ifg("bbc");
     else if (bo("html") || bo("에이치티엠엘")) return ifg("html");
     else if (bo("c") || bo("씨")) return ifg("c");
+    else if (bo("a") || bo("에이")) return ifg("a");
     else{
         alert('Input_Data : ' + Input_Data + '   Input_Data : ' + Input_Data);
         return ifg('nowiki');
