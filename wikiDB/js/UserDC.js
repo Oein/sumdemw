@@ -7,7 +7,7 @@ function Cheek(Input_Data){
     Data = Input_Data;
     console.log(Input_Data);
     if(bo("!wait") || bo("!wait")) alert('Input_Data : ' + Input_Data + '   Input_Data : ' + Input_Data);
-    else if (bo("opent")) return ifg("UpdateList");
+    else if (bo("opent") || bo("업데이트리스트")) return ifg("UpdateList");
     else if (bo("entkr")) document.location.href='../other/findkorean.html';
     else if (bo("google") || bo("구글")) return ifg("Google");
     else if (bo("!help") || bo("!help")) return ifg("datalist");
