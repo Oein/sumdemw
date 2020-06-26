@@ -15,6 +15,8 @@
 		<title>Sumdem Wiki</title>
 	</head>
 	<body>
+		<h1 id="h1w"></h1>
+		<noscript>
 		<p>
 			<h1>
 				죄송합니다.
@@ -36,8 +38,11 @@
 				브라우져에서 자바스크립트 지원을 안하면은 <a href="http://chrome.com">링크</a>에서 크롬브라우져를 다운하여 방문해주세요.
 			</h4>
 		</p>
+		</noscript>
 		
 		<script>
+			var a = document.getElementById("h1w");
+			a.innerText = "잠시만 기다려 주세요.";
 			var pc_device = "win16|win32|win64|mac|macintel";
  
 			// 접속한 디바이스 환경
